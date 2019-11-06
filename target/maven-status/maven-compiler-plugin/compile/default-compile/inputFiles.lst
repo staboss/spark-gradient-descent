@@ -1,0 +1,11 @@
+/Users/staboss/Documents/Siemens/Internship/GradientDescent/src/main/java/com/staboss/spark/gradient_descent/Generator.java
+/Users/staboss/Documents/Siemens/Internship/GradientDescent/src/main/java/com/staboss/spark/gradient_descent/math/comparator/ComparatorY.java
+/Users/staboss/Documents/Siemens/Internship/GradientDescent/src/main/java/com/staboss/spark/gradient_descent/math/function/HThetaFunction.java
+/Users/staboss/Documents/Siemens/Internship/GradientDescent/src/main/java/com/staboss/spark/gradient_descent/Main.java
+/Users/staboss/Documents/Siemens/Internship/GradientDescent/src/main/java/com/staboss/spark/gradient_descent/data/DataPoint.java
+/Users/staboss/Documents/Siemens/Internship/GradientDescent/src/main/java/com/staboss/spark/gradient_descent/math/function/GradientFunction.java
+/Users/staboss/Documents/Siemens/Internship/GradientDescent/src/main/java/com/staboss/spark/gradient_descent/math/function/NormalizeFunction.java
+/Users/staboss/Documents/Siemens/Internship/GradientDescent/src/main/java/com/staboss/spark/gradient_descent/data/ExperienceData.java
+/Users/staboss/Documents/Siemens/Internship/GradientDescent/src/main/java/com/staboss/spark/gradient_descent/data/MaxMinValue.java
+/Users/staboss/Documents/Siemens/Internship/GradientDescent/src/main/java/com/staboss/spark/gradient_descent/math/comparator/ComparatorX.java
+/Users/staboss/Documents/Siemens/Internship/GradientDescent/src/main/java/com/staboss/spark/gradient_descent/data/ParseDataPoint.java
