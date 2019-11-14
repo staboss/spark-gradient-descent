@@ -1,4 +1,4 @@
-# Implementation of gradient descent in Apache Spark in Java
+# Implementation of gradient descent in Apache Spark (Java)
 ### How to build:
 `mvn package`
 ### How to run:
