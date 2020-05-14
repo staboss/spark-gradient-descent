@@ -1,6 +1,8 @@
 # Implementation of gradient descent in Apache Spark (Java)
 ## Build project
-`mvn package`
+```
+mvn package
+```
 
 ## Usage
 ```
