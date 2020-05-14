@@ -23,3 +23,6 @@ Where `[OPTIONS]` (follow input sequence):
 ```
 spark-submit --class <path to .Main> --master local[*] GradientDescent-1.0.jar 1 4 4 100
 ```
+
+## License & copyright
+Licensed under the [MIT-License](LICENSE.md).
