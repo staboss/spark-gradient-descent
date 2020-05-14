@@ -52,14 +52,13 @@ public class Main {
             weight = Generator.generateWeight(Integer.parseInt(args[1]));
             points = Generator.generateData(Integer.parseInt(args[2]), weight, sparkContext).cache();
             iterations = Integer.parseInt(args[3]);
-            originals = points.collect();
         } else {
             step = Double.parseDouble(args[3]);
             iterations = Integer.parseInt(args[2]);
             JavaRDD<String> lines = sparkContext.textFile(args[1]).cache();
             points = lines.map(new ParseDataPoint()).cache();
-            originals = points.collect();
         }
+        originals = points.collect();
 
         //  Experience dataset
         ExperienceData experienceData = train(points, step, iterations);
@@ -149,5 +148,4 @@ public class Main {
 
     private static final String DELIMITER = "****************************************" +
             "****************************************" + "\n";
-
 }

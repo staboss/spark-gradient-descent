@@ -1,10 +1,13 @@
 # Implementation of gradient descent in Apache Spark (Java)
-### How to build:
+## Build project
 `mvn package`
-### How to run:
-`spark-submit --class com.staboss.spark.gradient_descent.Main --master local[*] [JAR-FILE] [OPTIONS]`
 
-Where `[OPTIONS]` (consider input sequence):
+## Usage
+```
+spark-submit --class com.staboss.spark.gradient_descent.Main --master local[*] [JAR-FILE] [OPTIONS]
+```
+
+Where `[OPTIONS]` (follow input sequence):
 1. Reading from file
     * `<flag_generate>` – 0;
     * `<file_path>` – file path;
@@ -16,6 +19,7 @@ Where `[OPTIONS]` (consider input sequence):
     * `<number_of_lines>` – the number of data lines;
     * `<number_of_iterations>` – the number of iterations.
 
-### For example:
-`spark-submit --class <path to .Main> --master local[*] GradientDescent-1.0.jar 1 4 4 100`
-
+## Example
+```
+spark-submit --class <path to .Main> --master local[*] GradientDescent-1.0.jar 1 4 4 100
+```
